@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+$body-background-color: #e7decd;
+
+@import "../../node_modules/bulma/bulma.sass";
+
+.project .image {
+  width: 239px;
+  height: auto;
+}

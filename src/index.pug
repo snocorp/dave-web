@@ -1,0 +1,68 @@
+---
+layout: layouts/default.pug
+title: Home
+---
+.box 
+  h3.is-size-3 About Me
+  p.block
+    | I'm a software developer with a passion for front end and web development but have strong skills 
+    | in the full application stack. I have worked on complex web applications for over 17 years dealing with many
+    | different technical areas and business domains.
+  p.block
+    | I enjoy riding a bike, snowboarding, running and occasionally swimming. I live in Ottawa with my wife and three kids.
+  h4.is-size-4.mt-3 Contact
+  nav.breadcrumb
+    ul 
+      li
+        a(href="mailto:dave@sewell.works")
+          span.icon.is-small.is-hidden-mobile
+            i.bi-envelope(aria-hidden="true")
+          span Email
+      li
+        a(href="https://github.com/snocorp")
+          span.icon.is-small.is-hidden-mobile
+            i.bi-github(aria-hidden="true")
+          span Github
+      li
+        a(href="https://mstdn.social/@snocorp")
+          span.icon.is-small.is-hidden-mobile
+            i.bi-mastodon(aria-hidden="true")
+          span Mastodon
+
+  h3.is-size-3 Projects
+  .columns
+    .column
+      .card.project
+        .card-content
+          h4.is-size-4 CircleCross
+          figure.image
+            img(src="/images/circlecross.png" alt="Screenshot of CircleCross")
+          .content Word game in Svelte
+        footer.card-footer 
+          a.card-footer-item(href="http://circlecross.vercel.app/") Web
+          a.card-footer-item(href="https://github.com/snocorp/circlecross") Repo
+    .column
+      .card.project
+        .card-content
+          h4.is-size-4 Movementium
+          figure.image
+            img(src="/images/movementium.png" alt="Screenshot of Movementium")
+          .content Pace calculator in Elm
+        footer.card-footer 
+          a.card-footer-item(href="https://www.movementium.com") Web
+          a.card-footer-item(href="https://github.com/snocorp/movementium2") Repo
+    .column
+      .card.project
+        .card-content
+          h4.is-size-4 Flophase
+          .content Cash flow utility in Java and JavaScript
+        footer.card-footer 
+          a.card-footer-item(href="http://flophase.appsport.com/") Web
+          a.card-footer-item(href="https://github.com/snocorp/floweb2") Repo
+      .card.project.mt-3
+        .card-content
+          h4.is-size-4 Calendarc
+          .content Calendar in Svelte
+        footer.card-footer 
+          a.card-footer-item(href="http://www.calendarc.com/") Web
+          a.card-footer-item(href="https://github.com/snocorp/calendarc") Repo

@@ -1,0 +1,20 @@
+{
+  "name": "dave-web",
+  "version": "1.0.0",
+  "description": "Personal web site of David Sewell",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Sewell",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "bulma": "^0.9.4",
+    "eleventy-sass": "^2.2.1",
+    "sass": "^1.62.1"
+  }
+}
