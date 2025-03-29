@@ -1,0 +1,15 @@
+nav.navbar.has-shadow(role="navigation" aria-label="main navigation")
+  .navbar-brand
+    a.navbar-item(href="/")
+      img(src="/images/icon.png")
+    a.navbar-burger(role="button" aria-label="menu" aria-expanded="false" data-target="mainMenu")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+  #mainMenu.navbar-menu
+    .navbar-start
+      a.navbar-item(href="/" class={"is-active": page.url === "/"}) Dave Sewell
+      a.navbar-item(href="/life" class={"is-active": page.url === "/life/"}) Life
+      a.navbar-item(href="/code" class={"is-active": page.url === "/code/"}) Code
+      a.navbar-item(href="/work" class={"is-active": page.url === "/work/"}) Work
+      a.navbar-item(href="/blog" class={"is-active": page.url.startsWith("/blog/")}) Blog

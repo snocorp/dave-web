@@ -1,0 +1,11 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "| blog/#{ post.slug.current }/"
+layout: layouts/post.pug
+---
+.box 
+  h1.is-size-1 #{post.title}
+  div !{post.body}
