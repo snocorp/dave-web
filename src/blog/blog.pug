@@ -10,4 +10,4 @@ title: Blog
       each post in posts 
         - var slug = post.slug.current
         li 
-          a(href=slug) #{post.title}
+          a(href=`/blog/${slug}`) #{post.title}
