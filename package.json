@@ -15,6 +15,9 @@
     "@11ty/eleventy": "^2.0.1",
     "bulma": "^0.9.4",
     "eleventy-sass": "^2.2.1",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "@sanity/block-content-to-html": "^2.0.0",
+    "@sanity/client": "^6.28.3",
+    "hyperscript": "^2.0.2"
   }
 }

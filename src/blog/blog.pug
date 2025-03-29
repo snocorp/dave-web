@@ -1,0 +1,13 @@
+---
+layout: layouts/default.pug
+title: Blog
+---
+.box 
+  h3.is-size-3 Blog
+  div.menu
+    p.menu-label Posts
+    ul.menu-list
+      each post in posts 
+        - var slug = post.slug.current
+        li 
+          a(href=`/blog/${slug}`) #{post.title}
