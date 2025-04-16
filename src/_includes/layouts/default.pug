@@ -1,7 +1,10 @@
+-
+  const pageTitle = (pageKey && pages[pageKey].title) || title
+  const fullTitle = pageTitle ? `${pageTitle} - Dave Sewell` : `Dave Sewell`
 doctype html
 html(lang="en")
   head
-    title #{ title } - Dave Sewell
+    title #{fullTitle}
     include /head.pug
   body
     include /header.pug
